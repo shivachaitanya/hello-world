@@ -1,0 +1,18 @@
+1) We need to set global variables for git, for every commit this is necessary
+      git config --global user.name "codechaitu"
+      git config --global user.email "codechaitu@mercari.com"
+2) When we are not using global setting, then use config without the --global option
+3)Configurations set till now -> git config --list
+4.1) When we have contents already in a directory 
+    a) git init
+    b) git config user.name " "
+    c) git config user.email " "
+    d) git add *
+    e) git add LICENSE
+    f) git commit -m 'initial project version'
+ 4.2) When we need a directory from github
+     a) git clone <url> ### same dirctory name after downloading 
+     b) git clone <url> <user-specific-name> ### downloaded directory will be user-specific-name 
+ 5) To know the status of all files-> git status
+ 6) To know the differnce of files between newly edited version and ready to staged one (used git add already on that file) ->  git diff
+ 7) Commit the staged files -> git commit -m "message to commit"
